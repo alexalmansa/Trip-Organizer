@@ -12,9 +12,9 @@ void printWelcomeLine() {
 
 void printMenu() {
 	printf("\n\t1. Show all destinations\n");
-	printf("\t2. Plan a trip\n");
-	printf("\t3. Load a different DB\n");
-	printf("\n\t4. Exit\n\n");
+	printf("\t2. Plan a trip \n");
+	printf("\t3. Load a different DB \n");
+	printf("\t4. Exit\n\n");
 }
 
 void printOptionError() {
