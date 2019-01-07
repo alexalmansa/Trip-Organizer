@@ -95,7 +95,7 @@ void readWholeFile(FILE * f, List * l) {
 void readNewFile(List * l) {
 	char *input = askUserForPath();
 
-	FILE *f = fopen(input, "r");
+	FILE *f = fopen(input, "r+");
 
 	if (f != NULL) {
 		*l = create();
